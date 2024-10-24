@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gainsboro;
+}
+p{
+    margin-bottom: 0;
+}
+
+.container-slide{
+    display: flex;
+    justify-content: center;
+}
+.slide{
+    width: 100%;
+}
+
+.slide img{
+    border-radius: 10px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*.div-text{
+
+    color: gainsboro;
+    left: 10%;
+    top: 5%;
+    background: rgba(0, 0, 0, 0.7);
+    width: 35%;
+    height: 300px;
+    padding: 20px;
+}*/
+.div-text h1{
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 10px;
+    text-align: center;
+}
+.div-text h4{
+    font-size: 40px;
+}
+
+.div-text p{
+    padding-top: 10px;
+    font-size: 16px;
+}
+.div-text button{
+    width: 150px;
+    font-size: 16px;
+    color: #fff;
+    border: solid 1px #F73480;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius:5px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.div-fondo{
+    position: absolute;
+    height: 200px;
+    top: 260px;
+    left: 0;
+    z-index: -4;
+}
+.div-confia{
+    border-left: #F73480 5px solid;
+}
+.div-confia h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #5E5D5D;
+}
+.div-confia h2{
+    font-size: 3rem;
+    color: #5E5D5D;
+}
+.div-cta{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.item-cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-cta img{
+    width: 40px;
+}
+.item-cta button{
+    width: 150px;
+    font-size: 16px;
+    color: #fff;
+    border: solid 1px #fff;
+    background-color:#F73480 ;
+    border-radius:5px;
+    padding: 5px;
+}
+.item-footer{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    padding: 10px;
+    width: 400px;
+}
+.item-footer p{
+    padding: 10px;
+}
+.item-footer p:nth-child(1){
+    font-weight: bold;
+}
+.img-logo{
+    width: 60px;
+}
+.img-redes{
+    width: 40px;
+    padding: 10px;
+}
+.container-imgs{
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+ }
+ .item-img img{
+    border-radius: 5px;
+ }
+ .nav-title{
+    border-left: solid 5px #F73480;
+ }
+
+ @media (min-width: 576px){
+    .slide .img-movil{
+        display: none;
+    }
+ }
+ @media (max-width: 576px){
+    .slide .img-web{
+        display: none;
+    }
+ }
