@@ -9,7 +9,9 @@ body{
 p{
     margin-bottom: 0;
 }
-
+hr{
+    margin: 0;
+}
 .container-slide{
     display: flex;
     justify-content: center;
@@ -69,6 +71,31 @@ p{
 .div-confia{
     border-left: #F73480 5px solid;
 }
+.div-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.div-icons-items{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+.div-icons-items i{
+    color: #5E5D5D;
+}
+.div-value{
+    color: #F73480;;
+}
+.card-body{
+    padding: 10px;
+}
+.card-body h5{
+    font-weight: bold;
+}
+
 .div-confia h1{
     font-size: 4rem;
     font-weight: bold;
@@ -87,9 +114,13 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 .item-cta img{
     width: 40px;
+}
+.item-cta p{
+    text-align: justify;
 }
 .item-cta button{
     width: 150px;
@@ -126,8 +157,15 @@ p{
     padding: 10px;
     display: flex;
  }
- .item-img img{
+ .gallery-img{
     border-radius: 5px;
+    object-fit: cover;
+ }
+ .gallery-text{
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    color:rgba(0, 0, 0, 0.6);
  }
  .nav-title{
     border-left: solid 5px #F73480;
