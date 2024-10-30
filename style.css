@@ -95,7 +95,9 @@ hr{
 .card-body h5{
     font-weight: bold;
 }
-
+.div-confia{
+    margin-bottom: 5px;
+}
 .div-confia h1{
     font-size: 4rem;
     font-weight: bold;
