@@ -146,7 +146,7 @@ hr{
     font-weight: bold;
 }
 .img-logo{
-    width: 60px;
+    width: 150px ;
 }
 .img-redes{
     width: 40px;
@@ -169,6 +169,22 @@ hr{
  }
  .nav-title{
     border-left: solid 5px #F73480;
+ }
+
+ .item-contacto{
+    text-align: justify;
+ }
+ .item-contacto button{
+    width: 150px;
+    font-size: 16px;
+    color: #fff;
+    border: solid 1px #fff;
+    background-color:#F73480 ;
+    border-radius:5px;
+    padding: 5px;
+ }
+ .div-info p:nth-child(1){
+    font-weight: bold;
  }
 
  @media (min-width: 576px){
