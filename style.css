@@ -87,7 +87,13 @@ hr{
     color: #5E5D5D;
 }
 .div-value{
-    color: #F73480;;
+    color: #F73480;
+    font-size: 20px;
+}
+.div-value p{
+    color: #464444;
+    font-size: 14px;
+    padding: 0;
 }
 .card-body{
     padding: 10px;
@@ -136,6 +142,7 @@ hr{
 .item-footer{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .item{
     padding: 10px;
@@ -196,6 +203,11 @@ hr{
  }
  @media (max-width: 576px){
     .slide .img-web{
+        display: none;
+    }
+ }
+ @media(max-width:992px){
+    .img-redes{
         display: none;
     }
  }
