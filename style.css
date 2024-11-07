@@ -4,13 +4,41 @@
 }
 
 body{
-    background-color: gainsboro;
+    background-color: #fff;
 }
 p{
     margin-bottom: 0;
 }
 hr{
     margin: 0;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.badges{
+    width: 30%;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    padding: 5px;
+}
+.location{
+    position: absolute;
+    bottom: 180px;
+    color: #fff;
+    font-weight: bold;
+    left: 15px;
+}
+.name{
+    font-size: 14px;
+    color: #5E5D5D;
+}
+.phone{
+    font-size: 12px;
+    color: #5E5D5D;
 }
 .container-slide{
     display: flex;
@@ -21,8 +49,9 @@ hr{
 }
 
 .slide img{
+    width: 100%;
     border-radius: 10px;
-    background-position: center;
+    background-position: 50%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,6 +100,18 @@ hr{
 .div-confia{
     border-left: #F73480 5px solid;
 }
+.services{
+    text-align: center;
+    color: #5E5D5D;
+    font-weight: bold;
+}
+.card-footer{
+    background-color: #fff;
+}
+.card-footer img{
+    width: 35px;
+    border-radius: 50%;
+}
 .div-icons{
     display: flex;
     justify-content: space-between;
@@ -80,7 +121,7 @@ hr{
 .div-icons-items{
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 50%;
     justify-content: space-between;
 }
 .div-icons-items i{
@@ -171,10 +212,7 @@ hr{
     object-fit: cover;
  }
  .gallery-text{
-    position: relative;
-    bottom: 0;
-    margin: 0;
-    color:rgba(0, 0, 0, 0.6);
+
  }
  .nav-title{
     border-left: solid 5px #F73480;
