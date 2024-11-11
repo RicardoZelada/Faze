@@ -63,16 +63,6 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*.div-text{
-
-    color: gainsboro;
-    left: 10%;
-    top: 5%;
-    background: rgba(0, 0, 0, 0.7);
-    width: 35%;
-    height: 300px;
-    padding: 20px;
-}*/
 .div-text h1{
     font-weight: bold;
     font-size: 60px;
@@ -100,11 +90,7 @@ hr{
 .div-confia{
     border-left: #F73480 5px solid;
 }
-.services{
-    text-align: center;
-    color: #5E5D5D;
-    font-weight: bold;
-}
+
 .card-footer{
     background-color: #fff;
 }
@@ -162,6 +148,11 @@ hr{
 .d-services img{
     width: 80px;
     padding: 10px;
+}
+.services{
+    text-align: center;
+    color: #5E5D5D;
+    font-weight: bold;
 }
 .div-cta{
     display: flex;
@@ -254,6 +245,19 @@ hr{
  @media (max-width: 576px){
     .slide .img-web{
         display: none;
+    }
+ }
+ @media (max-width: 576px){
+    .d-services{
+        width: 50%;
+    }
+    .d-services img{
+        width: 40px;
+        padding: 0;
+    }
+    .services{
+        font-size: 15px;
+        margin-top: 10px;
     }
  }
  @media(max-width:992px){
